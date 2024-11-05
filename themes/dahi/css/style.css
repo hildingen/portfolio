@@ -26,9 +26,16 @@ body {
     flex-direction: column;
 }
 
+.content {
+    max-width: 1000px;
+}
+
 .main {
     flex: 1 0 auto;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header, .footer {
@@ -106,10 +113,14 @@ p, td, th, li, dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.6em;
+    margin: 0.6em 0;
     font-weight: bold;
 }
 
 img {
     max-width: 100%;
+}
+
+.content a {
+    color: #ff6500;
 }
