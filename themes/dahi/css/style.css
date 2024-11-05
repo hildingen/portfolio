@@ -61,7 +61,11 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em ;
+}
+
+.logo img {
+    border-radius: 100%;
 }
 
 @media (max-width: 767px) {
@@ -125,3 +129,15 @@ img {
     color: #ff6500;
 }
  
+.social i {
+    color: #ff6500;
+}
+
+.footer {
+    padding: 20px 40px;
+}
+
+.content img {
+    border-radius: 20px;
+    margin-top: 20px;
+}

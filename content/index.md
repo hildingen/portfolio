@@ -26,3 +26,5 @@ Jag är 27 år gammal och började att programmera när jag fyllde 20 år. Jag h
 
 Jag har alltid tyckt om sport av alla dess slag. Jag har genom hela livet alltid spelat både fotboll och handboll och det är två sporter som håller mig nära om hjärtat än idag.
 Fritiden spenderar jag på en fotbollsplan, handbollsplan eller framför datorn.
+
+![Bild på mig](image/me.png)
