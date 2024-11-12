@@ -1,0 +1,20 @@
+/* Footer */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+    padding: 20px 40px;
+
+    .social {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .footer {
+        padding: 20px 20px;
+    }
+}

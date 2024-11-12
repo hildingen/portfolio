@@ -1,0 +1,49 @@
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e3e62;
+}
+
+.nav ul li a {
+    color: white
+}
+
+.nav ul li a:hover {
+    color: #ff6500;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em ;
+}
+
+.logo img {
+    border-radius: 100%;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    .title {
+        min-width: 50%;
+    }
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title {
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    p {
+        font-style: italic;
+        color: white
+    }
+}
