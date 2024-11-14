@@ -321,18 +321,19 @@ template {
 
 @media (max-width: 767px) {
   .footer {
-    padding: 20px 20px;
+    padding: 20px;
   }
 }
 /* Header */
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
   background-color: #1e3e62;
 }
 
 .nav ul li a {
-  color: white;
+  color: #fff;
 }
 
 .nav ul li a:hover {
@@ -340,7 +341,8 @@ template {
 }
 
 /* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em;
 }
 
@@ -349,7 +351,8 @@ template {
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -360,12 +363,12 @@ template {
   }
 }
 .title a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 .title p {
   font-style: italic;
-  color: white;
+  color: #fff;
 }
 
 blockquote {
@@ -6537,7 +6540,8 @@ body {
   align-items: center;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
@@ -6547,7 +6551,11 @@ body {
   line-height: 1.5rem;
 }
 
-p, td, th, li, dd {
+p,
+td,
+th,
+li,
+dd {
   overflow-wrap: break-word;
   word-wrap: break-word;
   font-family: "Noto Sans", sans-serif;
@@ -6557,7 +6565,12 @@ p, td, th, li, dd {
   font-variation-settings: "wdth" 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0.6em 0;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
@@ -6597,7 +6610,7 @@ img {
 
 @media (max-width: 767px) {
   .main {
-    padding: 20px 20px;
+    padding: 20px;
   }
   .js .nav-toggle {
     display: block;
