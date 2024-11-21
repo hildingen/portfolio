@@ -409,12 +409,32 @@ pre code {
 
 .landingpage {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
+  gap: 1em;
 }
 
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
+}
+
+.box {
+  border: 2px solid #ff6500;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.three-col-span {
+  grid-column: span 3;
+}
+
+.two-col-span {
+  grid-column: span 2;
+}
+
+.one-col-span {
+  grid-column: span 1;
 }
 
 /*!

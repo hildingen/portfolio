@@ -7,30 +7,45 @@ Template: technologies
 Technologies
 ==========================
 
-<div class="box">
+
+<div markdown="1" class="box one-col-span">
 CSS
+
+[Read more](./css)
 </div>
 
-<div class="box">
+<div markdown="1" class="box one-col-span">
 HTML
+
+[Read more](./html)
 </div>
 
-<div class="box">
+<div markdown="1" class="box three-col-span">
 JAVASCRIPT
+
+[Read more](./javascript)
 </div>
 
-<div class="box">
+<div markdown="1" class="box three-col-span">
 PHP
+
+[Read more](./php)
 </div>
 
-<div class="box">
+<div markdown="1" class="box two-col-span">
 PYTHON
+
+[Read more](./python)
 </div>
 
-<div class="box">
+<div markdown="1" class="box one-col-span">
 GIT
+
+[Read more](./git)
 </div>
 
-<div class="box wide">
+<div markdown="1" class="box three-col-span">
 SQLITE
+
+[Read more](./sqlite)
 </div>
