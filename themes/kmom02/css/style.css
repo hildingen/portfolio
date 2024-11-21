@@ -407,6 +407,16 @@ pre code {
   line-height: 1.4;
 }
 
+.landingpage {
+  display: grid;
+  width: 100%;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
