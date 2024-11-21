@@ -18,6 +18,15 @@
     border-radius: 12px;
 }
 
+.box a {
+    text-decoration-color: $accent-color;
+}
+
+.box a:hover {
+    text-decoration-color: #fff;
+    color: $accent-color;
+}
+
 .three-col-span {
     grid-column: span 3;
 }

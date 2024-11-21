@@ -11,41 +11,41 @@ Technologies
 <div markdown="1" class="box one-col-span">
 CSS
 
-[Read more](./css)
+[Read more](./technology/css)
 </div>
 
 <div markdown="1" class="box one-col-span">
 HTML
 
-[Read more](./html)
+[Read more](./technology/html)
 </div>
 
 <div markdown="1" class="box three-col-span">
 JAVASCRIPT
 
-[Read more](./javascript)
+[Read more](./technology/javascript)
 </div>
 
 <div markdown="1" class="box three-col-span">
 PHP
 
-[Read more](./php)
+[Read more](./technology/php)
 </div>
 
 <div markdown="1" class="box two-col-span">
 PYTHON
 
-[Read more](./python)
+[Read more](./technology/python)
 </div>
 
 <div markdown="1" class="box one-col-span">
 GIT
 
-[Read more](./git)
+[Read more](./technology/git)
 </div>
 
 <div markdown="1" class="box three-col-span">
 SQLITE
 
-[Read more](./sqlite)
+[Read more](./technology/sqlite)
 </div>

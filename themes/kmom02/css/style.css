@@ -425,6 +425,15 @@ pre code {
   border-radius: 12px;
 }
 
+.box a {
+  text-decoration-color: #ff6500;
+}
+
+.box a:hover {
+  text-decoration-color: #fff;
+  color: #ff6500;
+}
+
 .three-col-span {
   grid-column: span 3;
 }
