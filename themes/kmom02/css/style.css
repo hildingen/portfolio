@@ -461,8 +461,10 @@ pre code {
     grid-template-columns: 1fr;
   }
   .two-col-span,
-  .one-col-span {
-    grid-column: span 3;
+  .one-col-span,
+  .three-col-span,
+  .landingpage h1 {
+    grid-column: span 1;
   }
   .side-nav {
     display: none;

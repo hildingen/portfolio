@@ -1,64 +1,67 @@
 @import 'variables';
 
 .landingpage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 1em;
 }
 
 .landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
+  grid-column: span 3;
+  justify-self: center;
 }
 
 .box {
-    border: 2px solid $accent-color;
-    padding: 20px;
-    border-radius: 12px;
+  border: 2px solid $accent-color;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .box a {
-    text-decoration-color: $accent-color;
+  text-decoration-color: $accent-color;
 }
 
 .box a:hover {
-    text-decoration-color: #fff;
-    color: $accent-color;
+  text-decoration-color: #fff;
+  color: $accent-color;
 }
 
 .three-col-span {
-    grid-column: span 3;
+  grid-column: span 3;
 }
 
 .two-col-span {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .one-col-span {
-    grid-column: span 1;
+  grid-column: span 1;
 }
 
 .tech-blog {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .technology-blog {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 @media (max-width: 767px) {
-    .landingpage {
-        grid-template-columns: 1fr;
-    }
-    .two-col-span,
-    .one-col-span {
-        grid-column: span 3;
-    }
+  .landingpage {
+    grid-template-columns: 1fr;
+  }
+  
+  .two-col-span,
+  .one-col-span,
+  .three-col-span,
+  .landingpage h1 {
+    grid-column: span 1;
+  }
 
-    .side-nav {
-        display: none;
-    }
+  .side-nav {
+    display: none;
+  }
 }
