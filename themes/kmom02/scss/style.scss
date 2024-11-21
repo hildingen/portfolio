@@ -113,20 +113,4 @@ img {
   .main {
     padding: 20px;
   }
-
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-}
-
-.slide {
-  overflow-y: hidden !important;
-  transition: height 0.5s ease-in !important;
 }
