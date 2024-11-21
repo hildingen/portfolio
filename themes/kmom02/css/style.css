@@ -446,6 +446,28 @@ pre code {
   grid-column: span 1;
 }
 
+.tech-blog {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.technology-blog {
+  max-width: 1000px;
+}
+
+@media (max-width: 767px) {
+  .landingpage {
+    grid-template-columns: 1fr;
+  }
+  .two-col-span,
+  .one-col-span {
+    grid-column: span 3;
+  }
+  .side-nav {
+    display: none;
+  }
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
