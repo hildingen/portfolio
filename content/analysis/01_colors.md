@@ -118,7 +118,7 @@ Analys
 -----------------------
 *** 
 
-Av dem tre webbplatser som jag analyserade tycker jag att öob stog ut mest. Där hittade jag inga H1-H2 taggar utan bara H3 och brödtext. Typsnittet bestod av "futura-pt, arial" på både h3 och brödtext. Färanalysen fick jag fram till att färschemat var av typen "Complementary" där det finns en vit basfärg och 2 väldigt starka färger "#009F4D" och "#DC3932" vilket vad jag tror används för att fånga användarens blick på rabatter och special erbjudande på webbplatsen då detta är en webshop. 
+Av dem tre webbplatser som jag analyserade tycker jag att öob stog ut mest. Där hittade jag inga H1-H2 taggar utan bara H3 och brödtext. Typsnittet bestod av "futura-pt, arial" på både h3 och brödtext. Färganalysen fick jag fram till att färschemat var av typen "Complementary" där det finns en vit basfärg och 2 väldigt starka färger "#009F4D" och "#DC3932" vilket vad jag tror används för att fånga användarens blick på rabatter och special erbjudande på webbplatsen då detta är en webshop. 
 
 Aftonbladet följer också likt öob ett "Complementary" färgschema där dem har vit som basfärg och 2 väldigt starka färger "#DD2A30" och "#F3DE03". Detta följer likadant som öob, fånga blicken från användaren vid detaljer och aktuella artiklar för att skapa ett intresse för artiklarna. Typsnittet som aftonbladet använder skiljer sig något. Vi har H1-H2 taggar som använder "Verdana, Arial, Helvetica, sans-serif" och H3 och brödtext som använder "Arial, Helvetica, Verdana, Geneva, sans-serif".
 
