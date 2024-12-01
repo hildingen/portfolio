@@ -1,0 +1,23 @@
+$theme: 'light' !default;
+
+
+@use '_variables-light' as vl;
+@use '_variables-dark' as vd;
+
+@debug "Theme: #{$theme}";
+
+
+$font-color: vl.$font-color;
+$font-alternative-color: vl.$font-alternative-color;
+$accent-color: vl.$accent-color;
+$background-color: vl.$background-color;
+$background-alternative-color: vl.$background-alternative-color;
+
+@if $theme == 'dark' {
+    @debug "============Theme==============: #{vd.$background-color}";
+    $font-color: vd.$font-color;
+    $font-alternative-color: vd.$font-alternative-color;
+    $accent-color: vd.$accent-color;
+    $background-color: vd.$background-color;
+    $background-alternative-color: vd.$background-alternative-color;
+}
