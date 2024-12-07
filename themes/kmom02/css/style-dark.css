@@ -311,7 +311,7 @@ template {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #4A6FF0;
+  border-top: 1px solid #4a6ff0;
   padding: 20px 40px;
 }
 .footer .social {
@@ -327,7 +327,7 @@ template {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #4A6FF0;
+  border-bottom: 2px solid #4a6ff0;
   padding: 20px;
 }
 
@@ -342,7 +342,7 @@ template {
 }
 
 .nav ul li a:hover {
-  color: #4A6FF0;
+  color: #4a6ff0;
 }
 
 .logo {
@@ -384,9 +384,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #4A6FF0;
+  border: 1px solid #4a6ff0;
   border-radius: 0.3em;
-  background: #081B33;
+  background: #081b33;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -394,9 +394,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #4A6FF0;
+  border: 1px solid #4a6ff0;
   border-radius: 0.3em;
-  background: #081B33;
+  background: #081b33;
   white-space: pre-wrap;
 }
 
@@ -423,18 +423,18 @@ pre code {
 }
 
 .box {
-  border: 2px solid #4A6FF0;
+  border: 2px solid #4a6ff0;
   padding: 20px;
   border-radius: 12px;
 }
 
 .box a {
-  text-decoration-color: #4A6FF0;
+  text-decoration-color: #4a6ff0;
 }
 
 .box a:hover {
   text-decoration-color: #fff;
-  color: #4A6FF0;
+  color: #4a6ff0;
 }
 
 .three-col-span {
@@ -6588,7 +6588,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #27272A;
+  background-color: #27272a;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -6651,7 +6651,7 @@ img {
   max-width: 1000px;
 }
 .content a {
-  color: #4A6FF0;
+  color: #4a6ff0;
 }
 .content img {
   border-radius: 20px;
@@ -6664,7 +6664,7 @@ img {
   align-items: center;
 }
 .social i {
-  color: #4A6FF0;
+  color: #4a6ff0;
 }
 .social a {
   text-decoration: none;

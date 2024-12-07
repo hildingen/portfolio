@@ -81,7 +81,10 @@ h6 {
   font-style: normal;
 }
 
-img {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -121,4 +124,44 @@ img {
   .main {
     padding: 20px;
   }
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.gallery img {
+  height: 100%;
+}
+
+@media (min-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

@@ -311,7 +311,7 @@ template {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #DB9018;
+  border-top: 1px solid #db9018;
   padding: 20px 40px;
 }
 .footer .social {
@@ -327,7 +327,7 @@ template {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #DB9018;
+  border-bottom: 2px solid #db9018;
   padding: 20px;
 }
 
@@ -342,7 +342,7 @@ template {
 }
 
 .nav ul li a:hover {
-  color: #DB9018;
+  color: #db9018;
 }
 
 .logo {
@@ -384,7 +384,7 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #DB9018;
+  border: 1px solid #db9018;
   border-radius: 0.3em;
   background: #fff;
   font-family: monospace;
@@ -394,7 +394,7 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #DB9018;
+  border: 1px solid #db9018;
   border-radius: 0.3em;
   background: #fff;
   white-space: pre-wrap;
@@ -423,18 +423,18 @@ pre code {
 }
 
 .box {
-  border: 2px solid #DB9018;
+  border: 2px solid #db9018;
   padding: 20px;
   border-radius: 12px;
 }
 
 .box a {
-  text-decoration-color: #DB9018;
+  text-decoration-color: #db9018;
 }
 
 .box a:hover {
   text-decoration-color: #fff;
-  color: #DB9018;
+  color: #db9018;
 }
 
 .three-col-span {
@@ -6588,7 +6588,7 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -6643,7 +6643,10 @@ h6 {
   font-style: normal;
 }
 
-img {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -6651,7 +6654,7 @@ img {
   max-width: 1000px;
 }
 .content a {
-  color: #DB9018;
+  color: #db9018;
 }
 .content img {
   border-radius: 20px;
@@ -6664,7 +6667,7 @@ img {
   align-items: center;
 }
 .social i {
-  color: #DB9018;
+  color: #db9018;
 }
 .social a {
   text-decoration: none;
@@ -6678,4 +6681,41 @@ img {
   .main {
     padding: 20px;
   }
+}
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.gallery img {
+  height: 100%;
+}
+
+@media (min-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
