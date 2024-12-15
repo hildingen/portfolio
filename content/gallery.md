@@ -53,5 +53,5 @@ Gallery
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/4rG1sP1rhow" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Corner taken quickly" src="https://www.youtube.com/embed/4rG1sP1rhow" frameborder="0" allowfullscreen></iframe>
 </div>

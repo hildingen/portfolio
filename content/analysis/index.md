@@ -19,3 +19,10 @@ Laddningstid och användbarhet
 
 [Read more](./analysis/02_load)
 </div>
+
+<div markdown="1" class="box one-col-span">
+Designprinciper
+
+[Read more](./analysis/03_design_principles)
+</div>
+

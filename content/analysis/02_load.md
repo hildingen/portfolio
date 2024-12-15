@@ -27,16 +27,16 @@ Resultat
 
 *** 
 
-### Arken zoo
+## Arken zoo
 
 ![Arken zoo bild](../assets/img/arken-zoo.png)
 
-#### Undersidor
+### Undersidor
 - [Första](https://www.arkenzoo.se/hund)
 - [Andra](https://www.arkenzoo.se/valp)
 - [Tredje](https://www.arkenzoo.se/kampanj-katt)
 
-#### Möjliga förbättringar
+### Möjliga förbättringar
 
 - Skicka bilder i modernare bildformat
 - Sätt "width" och "height" på alla bilder
@@ -46,16 +46,16 @@ Vi kan med detta se att det finns yttligare åtgärder för just bilder som kan 
 
 *** 
 
-### Lidl
+## Lidl
 
 ![Lidl bild](../assets/img/lidl.png)
 
-#### Undersidor
+### Undersidor
 - [Första](https://www.lidl.se/c/veckans-frukt-groent/a10059764?tabCode=Current_Sales_Week)
 - [Andra](https://www.lidl.se/c/information/s10017074)
 - [Tredje](https://www.lidl.se/c/vara-varor-mejeri-ost/s10018056)
 
-#### Möjliga förbättringar
+### Möjliga förbättringar
 
 - Sätt "width" och "height" på alla bilder
 - Använda bilder med rätt storlek
@@ -63,22 +63,22 @@ Vi kan med detta se att det finns yttligare åtgärder för just bilder som kan 
 
 Vi kan med detta se att det finns optimeringar att göra på både med bilder och DOM-träd.
 
-#### Data som samlades in
+### Data som samlades in
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-HlLEapBaAen4kMLNZX2TzW7WTXbkz2w1pqIazCFp272nc_mAD235LQLyxXox6XgZZtWk4ukh0y6w/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="data" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-HlLEapBaAen4kMLNZX2TzW7WTXbkz2w1pqIazCFp272nc_mAD235LQLyxXox6XgZZtWk4ukh0y6w/pubhtml?widget=true&amp;headers=false"></iframe>
 
 *** 
 
-### Guldfynd
+## Guldfynd
 
 ![Guldfynd bild](../assets/img/guldfynd.png)
 
-#### Undersidor
+### Undersidor
 - [Första](https://www.guldfynd.se/artiklar/herr/kategorier/ringar/)
 - [Andra](https://www.guldfynd.se/artiklar/herr/kategorier/ringar/)
 - [Tredje](https://www.guldfynd.se/till-barnen)
 
-#### Möjliga förbättringar
+### Möjliga förbättringar
 
 - Sätt "width" och "height" på alla bilder
 - Använda bilder med rätt storlek
@@ -95,7 +95,7 @@ Det som alla tre har gemensamt är att alla bilder inte har någon satt "width" 
 
 Vid analysen av webbplatserna kunde vi se att laddningstiderna för undersidorna varierade någonstans mellan 1-2 sekunder men med lite olika storlek på sidorna. Det som skildje sig åt när vi inspekterade webbplatserna med inspector var storleken på hemsidorna (MB resources). Där sticker gulfynd iväg lite med ett snitt på 10.5 MB medans lidl och och arken zoo ligger mellan 5-8 MB. Trots att Guldfynd har något större resurser på webbplatsen laddar den något snabbare överlag än de två andra webbplatserna. 
 
-#### Rangordning resultat
+### Rangordning resultat
 1. Lidl
 2. Guldfynd
 3. Arken zoo

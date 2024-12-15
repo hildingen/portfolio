@@ -90,7 +90,7 @@ img {
   max-width: 1000px;
 
   a {
-    color: v.$accent-color;
+    color: orange;
   }
 
   img {
@@ -121,4 +121,36 @@ img {
   .main {
     padding: 20px;
   }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.gallery img {
+  border: 4px solid v.$accent-color;
+}
+
+.content img {
+  border: 4px solid v.$accent-color;
+}
+
+.content hr {
+  border-top: 2px dashed;
 }

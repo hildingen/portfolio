@@ -6654,7 +6654,7 @@ video {
   max-width: 1000px;
 }
 .content a {
-  color: #db9018;
+  color: blue;
 }
 .content img {
   border-radius: 20px;
@@ -6718,4 +6718,16 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.gallery img {
+  border: 4px solid #db9018;
+}
+
+.content img {
+  border: 4px solid #db9018;
+}
+
+.content hr {
+  border-top: 2px dashed;
 }
